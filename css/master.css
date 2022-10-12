@@ -1,0 +1,218 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 70px;
+  max-height: 70px;
+
+}
+
+.seccion {
+  background-color: #acf0ed;
+  width: 100vw;
+  height: calc(100vh - 70px);
+}
+
+.logo1{
+  width: 60px;
+  height: 60px;
+}
+
+.img1 {
+  width: 15%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  flex-direction: row;
+}
+
+.navegacion {
+  width: 50%;
+
+}
+
+a {
+  color: #3CCF4E;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+a:hover {
+  color: #2155CD;
+}
+
+video {
+  width: 100%;
+}
+
+.piepagina {
+  display: flex;
+  justify-content: center;
+  background-color: #03045E;
+  width: 100vw;
+  align-items: center;
+  height: 50px;
+  flex-direction: column;
+}
+
+
+.redes {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+ul.redes li a {
+  color: #ffffff;
+  margin: 0 20px;
+}
+
+ul.redes li a:hover {
+  color: #3CCF4E;
+}
+
+.formulariocontacto {
+  color: #f2f2fd;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 0 1.5em;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactanos {
+  text-align: center;
+  font-size: 36px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+  color: #03045E;
+}
+
+.contac>* {
+  padding: 1em;
+}
+
+.contac {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.contacform {
+  background-color: #74e781;
+}
+
+.contacform form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contacform form p {
+
+  padding: 1em;
+}
+
+.contacform form .block {
+  grid-column: 1 / 3;
+}
+
+.contacform form button,
+.contacform form input,
+.contacform form textarea {
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  outline: none;
+  border-bottom: 1px solid #002B5B;
+  color: #ffffff;
+}
+
+.contacform form button {
+  background-color: #002B5B;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+  text-align: center;
+
+}
+
+.contacform form button:hover {
+  background-color: #e3f0e4;
+  color: #0f0f0f;
+}
+
+.contacinfo {
+  background-color: #002B5B;
+}
+
+.contacinfo h4,
+.contacinfo ul,
+.contacinfo p {
+  text-align: left;
+  margin: 0 0 1rem 0;
+  font-size: 15px;
+  padding: 4px;
+}
+
+.contacinfo ul {
+  list-style: none;
+
+}
+
+.contacinfo ul li {
+  padding: .3em;
+}
+
+.seccion {
+  background-color: #acf0ed;
+  width: 100vw;
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 200px 0 200px;
+}
+
+.imagenes {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 30px;
+  grid-column-gap: 100px;
+}
+
+.imgs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 170px;
+  width: 200px;
+}
+
+
+@media screen and (min-whidt: 768px){
+  
+.menu{
+    flex-direction: column;
+  }
+
+
+}
